@@ -551,6 +551,8 @@
         top: 100vw;
         left: 38vw;
         background-color: transparent;
+        font-size: 4vw;
+        font-family: "Courier prime";
         color: white;
         width: 26vw;
         border: 2px solid white;
@@ -673,6 +675,8 @@
 
     .btn_order {
         background-color: transparent;
+        font-family: "Courier prime";
+        font-size: 4vw;
         color: black;
         width: 26vw;
         border: 1px solid black;
@@ -815,14 +819,13 @@
 
     .opt_order {
         width: 25vw;
-        height: 6.3vw;
+        height: 8.3vw;
         margin-left: 37.5vw;
         margin-top: 9.5vw;
         background-color: transparent;
         border: 1px solid black;
         font-family: "Courier prime";
-        font-size: 3vw;
-        font-weight: 800;
+        font-size: 4vw;
         color: black;
     }
 
