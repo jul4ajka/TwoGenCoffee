@@ -221,10 +221,11 @@
 
     .coffee_pack:hover {
         position: relative;
-        top: -10vw;
-        left: -5vw;
-        width: 25vw;
-        margin-bottom: -18vw;
+        top: -4vw;
+        left: -3vw;
+        width: 20vw;
+        margin-bottom: -10.5vw;
+        transition: 1s;
     }    
 
     .coffee_name {
@@ -245,6 +246,10 @@
     .box {
         display: flex;
         flex-direction: row;
+    }
+
+    .bold {
+        font-weight: 800;
     }
 
     .price {
