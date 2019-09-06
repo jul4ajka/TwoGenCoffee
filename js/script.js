@@ -17,3 +17,10 @@ $( document ).ready(function() {
     });
     
     });
+
+    $(document).ready(function () {
+        $("ul.menu>li").on("click", "a", function (event) {
+            $(".menu .active").removeClass("active");
+            $(this).addClass("active");
+        });
+    });
