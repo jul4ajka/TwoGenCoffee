@@ -510,6 +510,7 @@
     body {
         margin: 0;
         padding: 0;
+        overflow-x: hidden;
     }
 
     .twogen {
@@ -783,6 +784,10 @@
         font-size: 4vw;
         margin-top: 95vw;
         margin-left: 30vw;
+    }
+
+    #section4 {
+        overflow-x: scroll!important;
     }
 
     .opt_buy {
