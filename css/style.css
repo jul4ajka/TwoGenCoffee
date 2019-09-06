@@ -226,6 +226,7 @@
         width: 20vw;
         margin-bottom: -10.5vw;
         transition: 1s;
+        cursor: pointer;
     }    
 
     .coffee_name {
