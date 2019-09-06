@@ -133,6 +133,10 @@
         color: black;
     } 
 
+    .indent {
+        margin-left: 3vw;
+    }
+
     .container {
         width: 50vw;
     }
@@ -219,13 +223,18 @@
         margin-left: 1vw;
     }
 
+    .pack_container {
+        width: 30vw;
+        height: 30vw;
+    }
+
     .coffee_pack:hover {
         position: relative;
         top: -4vw;
         left: -3vw;
         width: 20vw;
         margin-bottom: -10.5vw;
-        transition: 1s;
+        transition: 0.5s;
         cursor: pointer;
     }    
 
@@ -498,9 +507,272 @@
         padding: 0;
     }
 
+    .twogen {
+        display: none;
+    }
+
+    .head_logo {
+        width: 20vw;
+        height: auto;
+        margin-left: 40vw;
+        margin-top: 2vw;
+    }
+
     .mobile_bg {
         width: 100vw;
-        height: 140vw;
+        height: 150vw;
+    }
+
+    #main_mobile {
+        position: relative;
+    }
+
+    .logo_mobile {
+        width: 50vw;
+        height: auto;
+        position: absolute;
+        z-index: 2;
+        top: 58vw;
+        left: 26vw;
+    }
+
+    .main_text {
+        position: absolute;
+        top: 73vw;
+        color: white;
+        font-size: 4vw;
+        font-family: "Courier prime";
+        text-align: center;
+    }
+
+    .order_btn {
+        position: absolute;
+        top: 100vw;
+        left: 38vw;
+        background-color: transparent;
+        color: white;
+        width: 26vw;
+        border: 2px solid white;
+        height: 8vw;
+    }
+
+    .order_btn:hover {
+        background-color: white;
+        color: black;
+    }
+
+    #about_mobile {
+        background-color: #fff9f1;
+        margin-top: -5vw;
+        padding-top: 10vw;
+        padding-bottom: 112vw;
+    }
+
+    .about_text {
+        font-size: 10vw;
+        text-align: center;
+        font-family: "Courier prime";
+        font-weight: 800;
+    }
+
+    .about_prgr_text {
+        font-size: 5vw;
+        font-family: "Courier prime";
+        margin-left: 7vw;
+        margin-right: 5vw;
+        text-align: left;
+    }
+
+    .about_bold {
+        font-weight: 800;
+    }
+
+    .container2 {
+        position: relative;
+    }
+
+    .elem1_sec2 {
+        position: absolute;
+        top: 20vw;
+        left: 75vw;
+        width: 15vw;
+        height: auto;
+    }
+
+    .elem2_sec2 {
+        position: absolute;
+        width: 70vw;
+        height: auto;
+        left: 10vw;
+        z-index: 2;
+    }
+
+    .elem3_sec2 {
+        position: absolute;
+        z-index: 2;
+        width: 30vw;
+        left: 63vw;
+        top: -12vw;
+    }
+
+    .coffee_wraper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coffee_item {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    .coffee_title {
+        font-size: 10vw;
+        text-align: center;
+        font-family: "Courier prime";
+        font-weight: 800;
+    }
+
+    .coffee_pack {
+        width: 80vw;
+        height: auto;
+        margin-left: 10vw;
+    }
+
+    .coffee_name {
+        font-size: 8vw;
+        text-align: center;
+        font-family: "Courier prime";
+        font-weight: 800;
+    }
+
+    .coffee_about {
+        font-size: 5vw;
+        text-align: center;
+        font-family: "Courier prime";
+        font-weight: 500;
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    .bold {
+        font-weight: 800;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .price {
+        font-size: 8vw;
+        text-align: left;
+        font-family: "Courier prime";
+        margin-left: 10vw;
+    }
+
+    .btn_order {
+        background-color: transparent;
+        color: black;
+        width: 26vw;
+        border: 1px solid black;
+        height: 8vw;  
+        margin-left: 10vw;
+    }
+
+    .btn_order:hover {
+        background-color: white;
+        color: black;
+    }
+
+    #contacts_mobile {
+        background-color: #fff9f1;
+        padding-bottom: 5vw;
+    }
+
+    .contacts_head {
+        font-size: 10vw;
+        text-align: center;
+        font-family: "Courier prime";
+        font-weight: 800;
+        padding-top: 10vw;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .email_p {
+        margin-left: 6vw;
+        font-family: "Courier prime";
+        font-size: 7vw;
+        font-weight: 800;
+    }
+
+    .email_mail {
+        margin-left: 6vw;
+        font-family: "Courier prime";
+        font-size: 4vw;
+        margin-top: 8vw;
+    }
+
+    .mobile_mob {
+        margin-left: 3vw;
+        font-family: "Courier prime";
+        font-size: 4vw;
+        margin-top: 8vw;
+    }
+
+    .productor_prod {
+        margin-left: 3vw;
+        font-family: "Courier prime";
+        font-size: 4vw;
+        margin-top: 8vw;
+    }
+
+    .adress_adr {
+        margin-left: 3vw;
+        font-family: "Courier prime";
+        font-size: 4vw;
+        margin-top: 8vw;
+    }
+
+    .contacts_box2 {
+        position: relative;
+    }
+
+    .elem1 {
+        position: absolute;
+        z-index: 1;
+        top: 1vw;
+        left: 40vw;
+        width: 50vw;
+        height: auto;
+    }
+
+    .elem2 {
+        position: absolute;
+        z-index: 2;
+        top: 18vw;
+        left: 7vw;
+        width: 60vw;
+        height: auto;
+    }
+
+    .elem3 {
+        position: absolute;
+        z-index: 2;
+        width: 8vw;
+        height: auto;
+        top: 10vw;
+        left: 76vw;
+    }
+
+    .twogen_mobile {
+        font-family: "Courier prime";
+        font-size: 4vw;
+        margin-top: 95vw;
+        margin-left: 30vw;
     }
 }
 

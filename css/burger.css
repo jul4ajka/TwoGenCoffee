@@ -15,6 +15,7 @@
           line-height:60px;
           border-bottom:1px solid #dddddd;
       }
+
       .hamburger{
         background:none;
         position:absolute;
@@ -29,6 +30,8 @@
         cursor:pointer;
         outline:none;
         z-index:10000000000000;
+        padding-top: 11px;
+        padding-right: 30px;
       }
       .cross{
         background:none;
@@ -44,8 +47,10 @@
         cursor:pointer;
         outline:none;
         z-index:10000000000000;
+        padding-top: 11px;
+        padding-right: 30px;
       }
-      .menu_mobile{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+      .menu_mobile{    top: 17vw; z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
       .menu_mobile ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
       .menu_mobile li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
       .menu_mobile li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
@@ -60,7 +65,14 @@
         margin-top:5px; 
         margin:0 auto;
       }
-      header{display:inline-block; font-size:12px;}
+      header{
+          display: inline-block;
+          font-size: 18px;
+          padding-top: 5px;
+          /* position: fixed; */
+          z-index: 999;
+      }
+
       span{padding-left:20px;}
       a{color:#336699;}
 }
