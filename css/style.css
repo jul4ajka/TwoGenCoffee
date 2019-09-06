@@ -74,7 +74,7 @@
         height: 47vw;
         margin-left: 13vw;
         background-image: url('../img/main_bgr.png');
-        background-size: 100% 100%;
+        background-size: 105% 100%;
         background-repeat: no-repeat;
     }
 
@@ -520,7 +520,8 @@
 
     .mobile_bg {
         width: 100vw;
-        height: 150vw;
+        height: 162vw;
+        margin-top: -1vw;
     }
 
     #main_mobile {
