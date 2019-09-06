@@ -563,6 +563,7 @@
         width: 26vw;
         border: 2px solid white;
         height: 8vw;
+        text-align: center;
     }
 
     .order_btn:hover {
@@ -688,6 +689,7 @@
         border: 1px solid black;
         height: 8vw;  
         margin-left: 10vw;
+        text-align: center;
     }
 
     .btn_order:hover {
@@ -818,7 +820,7 @@
     .coffee_beans_opt {
         width: 30vw;
         height: auto;
-        margin-left: 73vw;
+        margin-left: 68vw;
         position: relative;
         top: -3vw;
     }
@@ -833,6 +835,7 @@
         font-family: "Courier prime";
         font-size: 4vw;
         color: black;
+        text-align: center;
     }
 
     .opt_order:hover {
