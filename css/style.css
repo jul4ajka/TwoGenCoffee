@@ -594,7 +594,7 @@
         border: 2px solid white;
         height: 8vw;
         text-align: center;
-        padding-right: 3vw;
+        padding-right: 5vw;
     }
 
     .order_btn:hover {
@@ -721,6 +721,7 @@
         height: 8vw;  
         margin-left: 10vw;
         text-align: center;
+        padding-right: 5vw;
     }
 
     .btn_order:hover {
@@ -867,6 +868,7 @@
         font-size: 4vw;
         color: black;
         text-align: center;
+        padding-right: 5vw;
     }
 
     .opt_order:hover {
