@@ -69,6 +69,36 @@
         margin-left: 0.8vw;
     }
 
+    .language {
+        margin-left: 68vw;
+        margin-top: 2vw;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .circle {
+        width: 3vw;
+        height: 3vw;
+        background-image: url('../img/circle-1.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin: 0.5vw;
+    }
+
+    .lang {
+        color: black;
+        text-decoration: none;
+        font-family: "Courier prime";
+        font-size: 1.1vw;
+        font-weight: 800;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 1vw;
+    }
+
     .main_page {
         width: 87vw;
         height: 47vw;
@@ -81,7 +111,7 @@
     .main_logo {
         width: 24vw;
         height: auto;
-        margin-top: 20vw;
+        margin-top: 14vw;
         margin-left: 31.5vw;
     }
 
@@ -784,7 +814,7 @@
     .twogen_mobile {
         font-family: "Courier prime";
         font-size: 4vw;
-        margin-top: 95vw;
+        margin-top: 7vw;
         margin-left: 30vw;
     }
 
@@ -853,6 +883,19 @@
     button {
         -webkit-appearance: none;
         border-radius: 0;
+    }
+
+    .social_insta {
+        width: 10vw;
+        height: auto;
+        margin-top: 100vw;
+        margin-right: 5vw;
+        margin-left: 34vw;
+    }
+
+    .social_fb {
+        width: 5.5vw;
+        height: auto;
     }
 }
 
