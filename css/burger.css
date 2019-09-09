@@ -66,11 +66,12 @@
         margin:0 auto;
       }
       header{
-          display: inline-block;
-          font-size: 18px;
-          padding-top: 5px;
-          /* position: fixed; */
-          z-index: 999;
+        display: flex;
+        font-size: 18px;
+        padding-top: 5px;
+        /* position: fixed; */
+        z-index: 999;
+        flex-direction: row;
       }
 
       span{padding-left:20px;}
