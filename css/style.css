@@ -306,6 +306,7 @@
     .box2 {
         display: flex;
         flex-direction: row;
+        margin-top: 1vw;
     } 
 
     .bold {
@@ -332,7 +333,7 @@
         font-family: "Courier prime";
         font-size: 1.2vw;
         margin-left: 4.5vw;
-        margin-top: 2vw;
+        margin-top: 1vw;
     }
 
     .btn_order:hover {
@@ -446,6 +447,17 @@
         background-color: black;
         transition: 0.6s;
         color: white;
+    }
+
+    .value_pack {
+        font-family: "Courier prime";
+        font-size: 1.5vw;
+        color: darkgray;
+        margin-left: 10vw;
+    }
+
+    .light {
+        font-weight: 300;
     }
     
 
@@ -1031,5 +1043,18 @@
         margin-top: 2vw;
         margin-left: 30vw;
     }
+
+    .value_pack {
+        font-family: "Courier prime";
+        font-size: 3.5vw;
+        color: darkgray;
+        margin-left: 10vw;
+    }
+
+    .light {
+        font-weight: 300;
+    }
+    
+    
 }
 
