@@ -363,6 +363,15 @@
         border-collapse: collapse;
     }
 
+    .download {
+        font-family: "Courier prime";
+        font-size: 2vw;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        margin-top: 2vw;
+    }
+
     /* Opt*/ 
 
     .box_opt {
@@ -1011,6 +1020,16 @@
     .discount_table, .disc_tr, .disc_td {
         border: 1px solid black;
         border-collapse: collapse;
+    }
+
+    .download {
+        font-family: "Courier prime";
+        font-size: 4vw;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        margin-top: 2vw;
+        margin-left: 30vw;
     }
 }
 
