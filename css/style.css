@@ -282,7 +282,7 @@
 
     .coffee_about {
         font-family: "Courier prime";
-        font-size: 1.2vw;
+        font-size: 1.1vw;
         text-align: center;
         width: 15vw;
         height: 5vw;
@@ -293,7 +293,7 @@
         font-size: 1.23vw;
         font-weight: 800;
         text-align: right;
-        width: 12vw;
+        width: 14vw;
         position: relative;
         top: 0.2vw;
     }
@@ -316,7 +316,7 @@
 
     .price {
         font-family: "Courier prime";
-        font-size: 0.9vw;
+        font-size: 1.2vw;
         font-weight: 300;
         text-align: left; 
     }
@@ -754,7 +754,7 @@
     }
 
     .coffee_about {
-        font-size: 5vw;
+        font-size: 4vw;
         text-align: center;
         font-family: "Courier prime";
         font-weight: 500;
@@ -788,7 +788,7 @@
 
     .price {
         font-family: "Courier prime";
-        font-size: 4vw;
+        font-size: 5vw;
         font-weight: 300;
         text-align: left;
         margin-left: 10vw;
