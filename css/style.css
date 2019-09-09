@@ -293,7 +293,7 @@
         font-size: 1.23vw;
         font-weight: 800;
         text-align: right;
-        width: 9vw;
+        width: 12vw;
         position: relative;
         top: 0.2vw;
     }
@@ -301,6 +301,7 @@
     .box {
         display: flex;
         flex-direction: column;
+        width: 16vw;
     }
 
     .box2 {
