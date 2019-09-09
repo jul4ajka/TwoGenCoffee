@@ -435,7 +435,7 @@
         width: 8.7vw;
         height: 2.3vw;
         margin-left: 39.5vw;
-        margin-top: 2.5vw;
+        margin-top: -0.5vw;
         background-color: transparent;
         border: 1px solid black;
         font-family: "Courier prime";
@@ -459,6 +459,13 @@
 
     .light {
         font-weight: 300;
+    }
+
+    .price_date {
+        font-family: "Courier prime";
+        font-size: 0.9vw;
+        color: darkgray;
+        margin-left: 10vw;
     }
     
 
@@ -1056,6 +1063,12 @@
         font-weight: 300;
     }
     
-    
+    .price_date {
+        font-family: "Courier prime";
+        font-size: 3vw;
+        margin-left: 5vw;
+    }
 }
+
+
 
