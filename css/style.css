@@ -242,6 +242,10 @@
         margin-left: 10vw;
     }
 
+    .row2 {
+        margin-left: 20vw;
+    }
+
     .coffee_item {
         width: 15vw;
         padding: 1vw;
@@ -350,7 +354,7 @@
         font-weight: 800;
         text-align: center;
         color: black;
-        margin-left: 13vw;
+        margin-left: 0vw;
     }
 
     .discount_table {
@@ -414,6 +418,7 @@
     .table_bold {
         font-weight: 800;
         height: 5vw;
+        padding-left: 1vw;
     }
 
     .underline th  {
