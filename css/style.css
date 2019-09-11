@@ -77,26 +77,29 @@
     }
 
     .circle {
-        width: 3vw;
-        height: 3vw;
-        background-image: url('../img/circle-1.png');
+        width: 2vw;
+        height: 3vw;    
+        /* background-image: url('../img/circle-1.png'); */
         background-size: 100% 100%;
         background-repeat: no-repeat;
         margin: 0.5vw;
     }
 
     .lang {
-        color: black;
+        color: white;
         text-decoration: none;
         font-family: "Courier prime";
-        font-size: 1.1vw;
-        font-weight: 800;
+        font-size: 1.4vw;
         display: flex;
         align-self: center;
         justify-content: center;
         align-items: center;
         position: relative;
         top: 1vw;
+    }
+
+    .active_lang {
+        font-weight: 800;
     }
 
     .main_page {
@@ -172,11 +175,11 @@
     }
 
     .about_prgr_text {
-        width: 41vw;
-        margin-left: 5vw;
-        margin-top: 3vw;
+        width: 35vw;
+        margin-left: 9vw;
+        padding-top: 4vw;
         font-family: "Courier prime";
-        font-size: 1.1vw;
+        font-size: 1vw;
         color: black;
         text-align: justify;
     }
@@ -194,7 +197,7 @@
         position: absolute;
         z-index: 1;
         width: 13vw;
-        height: 18vw;
+        height: 14vw;
         top: 19vw;
         left: -20vw;    
     }
@@ -202,10 +205,10 @@
     .elem2_sec2 {
         position: absolute;
         z-index: 2;
-        width: 21vw;
-        height: 29vw;
+        width: 19vw;
+        height: 25vw;
         top: 13vw;
-        left: -32vw;
+        left: -30vw;
     }
 
     .elem3_sec2 {
@@ -252,7 +255,7 @@
     }
 
     .coffee_pack {
-        width: 13vw;
+        width: 12vw;
         height: auto;
         margin-left: 1vw;
     }
@@ -286,8 +289,8 @@
 
     .coffee_about {
         font-family: "Courier prime";
-        font-size: 1.1vw;
-        text-align: center;
+        font-size: 0.9vw;
+        text-align: left;
         width: 15vw;
         height: 5vw;
     }
@@ -299,7 +302,7 @@
         text-align: right;
         width: 14vw;
         position: relative;
-        top: 0.2vw;
+        top: 2vw;
     }
     
     .box {
@@ -316,6 +319,7 @@
 
     .bold {
         font-weight: 800;
+        font-size: 1.1vw;
     }
 
     .price {
@@ -339,7 +343,9 @@
         font-family: "Courier prime";
         font-size: 1.2vw;
         margin-left: 4.5vw;
-        margin-top: 1vw;
+        margin-top: 0vw;
+        position: relative;
+        top: -1vw;
     }
 
     .btn_order:hover {
@@ -350,7 +356,7 @@
 
     .discount_p {
         font-family: "Courier prime";
-        font-size: 3vw;
+        font-size: 2vw;
         font-weight: 800;
         text-align: center;
         color: black;
@@ -358,13 +364,14 @@
     }
 
     .discount_table {
-        width: 28vw;
-        margin-left: 27vw;
-        margin-top: 1vw;
+        width: 20vw;
+        margin-left: 30vw;
+        margin-top: -1vw;
         font-family: "Courier prime";
-        font-size: 2vw;
+        font-size: 1.3vw;
         text-align: center;
     }
+
     .discount_table, .disc_tr, .disc_td {
         border: 1px solid black;
         border-collapse: collapse;
@@ -389,7 +396,7 @@
         display: flex;
         flex-direction: column;
         width: 87vw;
-        height: 65vw;
+        height: 60vw;
         background-color: #fff9f1;
     }
 
@@ -398,6 +405,7 @@
         font-size: 2.5vw;
         text-align: center;
         margin-top: 5vw;
+        margin-left: -8vw;
     }
 
     .opt_table {
@@ -411,14 +419,16 @@
 
     .opt_table td {
         width: 4vw;
-        text-align: center;
+        text-align: left;
         height: 5vw;
+        padding-left: 1vw;
     }
 
     .table_bold {
         font-weight: 800;
         height: 5vw;
         padding-left: 1vw;
+        text-align: left;
     }
 
     .underline th  {
@@ -440,7 +450,7 @@
     .opt_order {
         width: 8.7vw;
         height: 2.3vw;
-        margin-left: 39.5vw;
+        margin-left: 4vw;
         margin-top: -0.5vw;
         background-color: transparent;
         border: 1px solid black;
@@ -474,8 +484,18 @@
         margin-left: 10vw;
     }
     
+    .box_buttons {
+        display: flex;
+        flex-direction: row;
+        width: 40vw;
+        margin-left: 26vw;
+    }
 
     /* Contacts */
+
+    #section5 {
+        height: 44vw;
+    }
 
     .contacts_container {
         display: flex;
@@ -598,10 +618,10 @@
 
     .twogen {
         font-family: "Courier prime";
-        font-size: 1.2vw;
+        font-size: 1vw;
         width: 100vw;
         text-align: center;
-        padding-bottom: 2vw;
+        padding-bottom: 0vw;
     }
 }
 

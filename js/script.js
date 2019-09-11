@@ -24,3 +24,10 @@ $( document ).ready(function() {
             $(this).addClass("active");
         });
     });
+
+    $(document).ready(function () {
+        $(".lang").on("click", "a", function (event) {
+            $(".lang .active_lang").removeClass("active_lang");
+            $(this).addClass("active_lang");
+        });
+    });
