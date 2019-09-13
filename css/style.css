@@ -587,6 +587,8 @@
     .contacts_box2 {
         position: relative;
         margin-top: 5vw;
+        width: 50vw;
+        margin-right: 13vw;
     }
 
     .elem1 {
