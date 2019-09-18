@@ -1,3 +1,5 @@
+//burger menu
+
 $( document ).ready(function() {
 
     $( ".cross" ).hide();
@@ -18,6 +20,8 @@ $( document ).ready(function() {
     
     });
 
+// active class
+
     $(document).ready(function () {
         $("ul.menu>li").on("click", "a", function (event) {
             $(".menu .active").removeClass("active");
@@ -25,4 +29,4 @@ $( document ).ready(function() {
         });
     });
 
-   
+  
