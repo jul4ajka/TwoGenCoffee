@@ -10,6 +10,31 @@
     <title>Two Gen</title>
 </head>
 <body>
+        <!-- Load Facebook SDK for JavaScript -->
+              <div id="fb-root"></div>
+              <script>
+                window.fbAsyncInit = function() {
+                  FB.init({
+                    xfbml            : true,
+                    version          : 'v4.0'
+                  });
+                };
+        
+                (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));</script>
+        
+              <!-- Your customer chat code -->
+              <div class="fb-customerchat"
+                attribution=install_email
+                page_id="101632994558090"
+          logged_in_greeting="Добрий день! Як ми можемо вам допомогти?"
+          logged_out_greeting="Добрий день! Як ми можемо вам допомогти?">
+              </div>
     <div class="desktop" id="section1">
         <aside>
             <img class="logo_bean" src="img/Logo.png">
@@ -32,7 +57,7 @@
                 <div class="circle"><a class="lang" href="english.html">ENG</a></div>
             </div>
             <img class="main_logo" src="img/logotype.png">
-            <p class="main_text">Ростерная, объединяющая поколения.<br> Мы не говорим о качестве, мы его обеспечиваем!</p>
+            <p class="main_text">Ростерная, объединяющая поколения.<br> Мы не говорим о качестве, мы его гарантируем!</p>
             <a href="#section3"><button class="order_btn">Заказать</button></a>
         </section>
     </div>
@@ -43,12 +68,12 @@
                 <div class="about_pargr">
                     <p class="about_prgr_text"><span class="about_bold">Two Generations</span><br>
                         Ростерная, объединяющая  поколения.<br><br>  
-                        <span class="indent"></span>Люди с разным видением и пониманием кофе, которые привыкли пить классический и насыщенный кофе, и те, кто ищет новых методов приготовления и обработки кофейного зерна, получат свою порцию удовольствия от «Two Gen».<br> 
-                        <span class="indent"></span>«Two Generations» одна из немногих ростерных в Украине с сертифицированным оборудованием. Верим в будущее Украины и хотим, чтобы наша страна успешно развивалась.<br>
-                        <span class="indent"></span>Стремимся, чтобы и Вы стали ценителями хорошего кофе. В «Two Generations» используем оборудование компании Giesen, одной из топовых на мировом рынке, которое обеспечивает качество в каждом глотке.<br>
-                        <span class="indent"></span> Отборные зерна проходят долгий путь, прежде, чем попасть в ростерную «Two Generations».<br><br>
+                        <span class="indent"></span>Люди с разным виденьем и пониманием кофе, которые привыкли пить классический и насыщенный кофе, и те, кто ищет новые методы приготовления и обработки кофейного зерна, получат свою порцию удовольствия от "Two Gen".<br> 
+                        <span class="indent"></span>"Two Generations" одна из немногих ростерных в Украине с сертифицированным оборудованием. Верим в будущее Украины и хотим, чтобы наша страна успешно развивалась.<br>
+                        <span class="indent"></span>Мы стремимся, чтобы и Вы стали ценителями хорошего кофе. В "Two Generations" используется оборудование компании Giesen, одной из топовых на мировом рынке, которое гарантирует качество в каждом глотке.<br>
+                        <span class="indent"></span> Отборные зерна проходят долгий путь, прежде, чем попасть в ростерную "Two Generations".<br><br>
                                
-                        В «Two Generations» мы не говорим о качестве, мы его обеспечиваем!</p>
+                        В "Two Generations" мы не говорим о качестве, мы его гарантируем!</p>
                 </div>
             </div>
         </section>
@@ -70,14 +95,14 @@
                             
                             <div class="box">
                                     <div class="box2">
-                                            <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                            <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                             <div class="box_price">83 грн.</div>
                                         </div>
                                         <!-- <div class="box2">
                                             <div class="price">Цена рекомендуемая</div>
                                             <div class="box_price">125 грн.</div>
                                         </div> -->
-                                <p class="coffee_about"><span class="bold">Профиль вкуса:</span> Лимон, орехи и шоколад</p>
+                                <p class="coffee_about"><span class="bold">Профиль вкуса:</span> лимон, орехи и шоколад</p>
                                 <a href="https://twogen.bitrix24.ua/pub/form/10/a2pr0k/"><button class="btn_order">Заказать</button></a>
                             </div>
                 </div>
@@ -88,14 +113,14 @@
                         <h1 class="coffee_name">SENIOR BLEND</h1>
                         <div class="box">
                                 <div class="box2">
-                                        <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                        <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                         <div class="box_price">90 грн.</div>
                                     </div>
                                     <!-- <div class="box2">
                                         <div class="price">Ціна рекомендована</div>
                                         <div class="box_price">125 грн.</div>
                                     </div> -->
-                            <p class="coffee_about"><span class="bold">Профиль вкуса:</span>Насыщенный и утонченный</p>
+                            <p class="coffee_about"><span class="bold">Профиль вкуса:</span> насыщенный и утонченный</p>
                             <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="btn_order">Заказать</button></a>
                         </div>
                 </div>
@@ -106,14 +131,14 @@
                     <h1 class="coffee_name">MODERN BLEND</h1>
                     <div class="box">
                             <div class="box2">
-                                    <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                    <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                     <div class="box_price">95 грн.</div>
                                 </div>
                                 <!-- <div class="box2">
                                     <div class="price">Ціна рекомендована</div>
                                     <div class="box_price">125 грн.</div>
                                 </div> -->
-                        <p class="coffee_about"><span class="bold">Профиль вкуса:</span>Мягкий и сбалансированный</p>
+                        <p class="coffee_about"><span class="bold">Профиль вкуса:</span> мягкий и сбалансированный</p>
                         <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="btn_order">Заказать</button></a>
                     </div>
                 </div>
@@ -125,14 +150,14 @@
                           
                             <div class="box">
                                 <div class="box2">
-                                    <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                    <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                     <div class="box_price">95 грн.</div>
                                 </div>
                                 <!-- <div class="box2">
                                     <div class="price">Цена рекомендуемая</div>
                                     <div class="box_price">135 грн.</div>
                                 </div> -->
-                                <p class="coffee_about"><span class="bold">Профиль вкуса:</span> Цитрусовый микс, нежные специи и молочный шоколад</p>
+                                <p class="coffee_about"><span class="bold">Профиль вкуса:</span> цитрусовый микс, нежные специи и молочный шоколад</p>
                                 <a href="https://twogen.bitrix24.ua/pub/form/10/a2pr0k/"><button class="btn_order">Заказать</button></a>
                             </div>
                 </div>      
@@ -146,7 +171,7 @@
                         
                             <div class="box">
                                     <div class="box2">
-                                        <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                        <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                         <div class="box_price">105 грн.</div>
                                     </div>
                                     <!-- <div class="box2">
@@ -165,14 +190,14 @@
                         
                             <div class="box">
                                     <div class="box2">
-                                            <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                            <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                             <div class="box_price">120 грн.</div>
                                         </div>
                                         <!-- <div class="box2">
                                             <div class="price">Цена рекомендуемая</div>
                                             <div class="box_price">170 грн.</div>
                                         </div> -->
-                                <p class="coffee_about"><span class="bold">Профиль вкуса:</span> Зеленый виноград, созревающая вишня и лимон</p>
+                                <p class="coffee_about"><span class="bold">Профиль вкуса:</span> зеленый виноград, созревающая вишня и лимон</p>
                                 <a href="https://twogen.bitrix24.ua/pub/form/10/a2pr0k/"><button class="btn_order">Заказать</button></a>
                             </div>
                 </div>
@@ -183,14 +208,14 @@
                         <h1 class="coffee_name">ETHIOPIA KERCHANSHE GR2</h1>
                         <div class="box">
                                 <div class="box2">
-                                        <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                        <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                         <div class="box_price">130 грн.</div>
                                     </div>
                                     <!-- <div class="box2">
                                         <div class="price">Цена рекомендуемая</div>
                                         <div class="box_price">185 грн.</div>
                                     </div> -->
-                            <p class="coffee_about"><span class="bold">Профиль вкуса:</span>Персик, цитрусы, черный чай</p>
+                            <p class="coffee_about"><span class="bold">Профиль вкуса:</span> персик, цитрусы, черный чай</p>
                             <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="btn_order">Заказать</button></a>
                         </div>
                 </div>
@@ -202,14 +227,14 @@
                       
                         <div class="box">
                             <div class="box2">
-                                <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                 <div class="box_price">165 грн.</div>
                             </div>
                             <!-- <div class="box2">
                                 <div class="price">Цена рекомендуемая</div>
                                 <div class="box_price">236 грн.</div>
                             </div> -->
-                            <p class="coffee_about"><span class="bold">Профиль вкуса:</span>Тропические фрукты, инжир, ликёр</p>
+                            <p class="coffee_about"><span class="bold">Профиль вкуса:</span> тропические фрукты, инжир, ликёр</p>
                             <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="btn_order">Заказать</button></a>
                         </div>
                 </div>  
@@ -223,14 +248,14 @@
                   
                     <div class="box">
                         <div class="box2">
-                            <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                            <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                             <div class="box_price">170 грн.</div>
                         </div>
                         <!-- <div class="box2">
                             <div class="price">Ціна рекомендована</div>
                             <div class="box_price">236 грн.</div>
                         </div> -->
-                        <p class="coffee_about"><span class="bold">Профиль вкуса:</span>Абрикосовый джем, смородина, карамель</p>
+                        <p class="coffee_about"><span class="bold">Профиль вкуса:</span> абрикосовый джем, смородина, карамель</p>
                         <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="btn_order">Заказать</button></a>
                     </div>
                 </div>
@@ -242,14 +267,14 @@
                
                 <div class="box">
                         <div class="box2">
-                            <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                            <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                             <div class="box_price">180 грн.</div>
                         </div>
                         <!-- <div class="box2">
                             <div class="price">Цена рекомендуемая</div>
                             <div class="box_price">245 грн.</div>
                         </div> -->
-                    <p class="coffee_about"><span class="bold">Профиль вкуса:</span>Манго, маракуйя, персик, легкие ромовые ноты</p>
+                    <p class="coffee_about"><span class="bold">Профиль вкуса:</span> манго, маракуйя, персик, легкие ромовые ноты</p>
                     <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="btn_order">Заказать</button></a>
                 </div>
                 </div> 
@@ -279,10 +304,10 @@
                 <table class="opt_table">
                     <tr class="underline">
                         <th class="table_bold">Страна</th>
-                        <th class="table_bold">Происхождения</th>
+                        <th class="table_bold">Происхождение</th>
                         <th class="table_bold">Регион/Ферма</th>
-                        <th class="table_bold">Вид арабики</th>
-                        <th class="table_bold">Метод оброботки</th>
+                        <th class="table_bold">Разновидность</th>
+                        <th class="table_bold">Метод обрaботки</th>
                         <th class="table_bold">Год урожая</th>
                         <th class="table_bold">Обжарка</th>
                         <th class="table_bold">Цена партнерская, (грн.)<br>
@@ -402,10 +427,10 @@
                         <td>125/495</td>
                     </tr>  
                 </table>
-                <p class="price_date">*цены действительны до 31.09.19</p>
+                <p class="price_date">*цены действительны до 30.09.19</p>
                 <div class="box_buttons">
                     <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="opt_order">Заказать</button></a>
-                    <a href="prices/Price RU.jpg"  download="prices"><button class="opt_order">Загрузить</button></a>
+                    <a href="prices/Price RU.jpg"  download="prices"><button class="opt_order" disabled>Загрузить</button></a>
                 </div>
                 <img class="coffee_beans_opt" src="img/Coffee-Beans-section4.png">
             </div>
@@ -417,7 +442,7 @@
                 <h1 class="contacts_head">Контакты</h1>
                 <div class="email">
                     <p class="email_p">E-mail:</p>
-                    <p class="email_mail">sales@2gen.com.ua</p>
+                    <p class="email_mail"><a href="mailto:sales@2gen.com.ua">sales@2gen.com.ua</a></p>
                 </div>
                 <div class="mobile_sec">
                     <p class="mobile_p">Телефон:</p>
@@ -445,6 +470,31 @@
     </div> 
     <p class="twogen">TWO GEN &copy; 2019</p>
    <div class="mobile">
+        <!-- Load Facebook SDK for JavaScript -->
+              <div id="fb-root"></div>
+              <script>
+                window.fbAsyncInit = function() {
+                  FB.init({
+                    xfbml            : true,
+                    version          : 'v4.0'
+                  });
+                };
+        
+                (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));</script>
+        
+              <!-- Your customer chat code -->
+              <div class="fb-customerchat"
+                attribution=install_email
+                page_id="101632994558090"
+          logged_in_greeting="Добрий день! Як ми можемо вам допомогти?"
+          logged_out_greeting="Добрий день! Як ми можемо вам допомогти?">
+              </div>
     <header>
         <div class="language">
             <div class="circle"><a class="lang" href="index.html">UA</a></div>
@@ -466,21 +516,21 @@
     <section id="main_mobile">
         <img class="mobile_bg" src="img/Mobile_bg.png">
         <img class="logo_mobile" src="img/logotype.png">
-        <p class="main_text">Ростерная, объединяющая поколения.<br> Ми не говорим о качестве, мы его обеспечиваем!</p>
+        <p class="main_text">Ростерная, объединяющая поколения.<br> Ми не говорим о качестве, мы его гарантируем!</p>
         <a href="#coffee_mobile"><button class="order_btn">Заказать</button></a>
     </section>
     <section id="about_mobile">
             <p class="about_text">О нас</p>
             <div class="container">
                 <div class="about_pargr">
-                        <p class="about_prgr_text"><span class="about_bold">Two Generations</span><br>
-                            Ростерная, объединяющая  поколения.<br><br>  
-                            <span class="indent"></span>Люди с разным видением и пониманием кофе, которые привыкли пить классический и насыщенный кофе, и те, кто ищет новых методов приготовления и обработки кофейного зерна, получат свою порцию удовольствия от «Two Gen».<br> 
-                            <span class="indent"></span>«Two Generations» одна из немногих ростерных в Украине с сертифицированным оборудованием. Верим в будущее Украины и хотим, чтобы наша страна успешно развивалась.<br>
-                            <span class="indent"></span>Стремимся, чтобы и Вы стали ценителями хорошего кофе. В «Two Generations» используем оборудование компании Giesen, одной из топовых на мировом рынке, которое обеспечивает качество в каждом глотке.<br>
-                            <span class="indent"></span> Отборные зерна проходят долгий путь, прежде, чем попасть в ростерную «Two Generations».<br><br>
-                                   
-                            В «Two Generations» мы не говорим о качестве, мы его обеспечиваем!</p>
+                    <p class="about_prgr_text"><span class="about_bold">Two Generations</span><br>
+                        Ростерная, объединяющая  поколения.<br><br>  
+                        <span class="indent"></span>Люди с разным виденьем и пониманием кофе, которые привыкли пить классический и насыщенный кофе, и те, кто ищет новые методы приготовления и обработки кофейного зерна, получат свою порцию удовольствия от "Two Gen".<br> 
+                        <span class="indent"></span>"Two Generations" одна из немногих ростерных в Украине с сертифицированным оборудованием. Верим в будущее Украины и хотим, чтобы наша страна успешно развивалась.<br>
+                        <span class="indent"></span>Мы стремимся, чтобы и Вы стали ценителями хорошего кофе. В "Two Generations" используется оборудование компании Giesen, одной из топовых на мировом рынке, которое гарантирует качество в каждом глотке.<br>
+                        <span class="indent"></span> Отборные зерна проходят долгий путь, прежде, чем попасть в ростерную "Two Generations".<br><br>
+                               
+                        В "Two Generations" мы не говорим о качестве, мы его гарантируем!</p>
                 </div>
             </div>
         <div class="container2">
@@ -501,14 +551,14 @@
                                 
                                 <div class="box">
                                         <div class="box2">
-                                                <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                                <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                                 <div class="box_price">83 грн.</div>
                                             </div>
                                             <!-- <div class="box2">
                                                 <div class="price">Цена рекомендуемая</div>
                                                 <div class="box_price">125 грн.</div>
                                             </div> -->
-                                    <p class="coffee_about"><span class="bold">Профиль вкуса:</span> Лимон, орехи и шоколад</p>
+                                    <p class="coffee_about"><span class="bold">Профиль вкуса:</span> лимон, орехи и шоколад</p>
                                     <a href="https://twogen.bitrix24.ua/pub/form/10/a2pr0k/"><button class="btn_order">Заказать</button></a>
                                 </div>
                     </div>
@@ -519,14 +569,14 @@
                                 <h1 class="coffee_name">SENIOR BLEND</h1>
                                 <div class="box">
                                         <div class="box2">
-                                                <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                                <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                                 <div class="box_price">90 грн.</div>
                                             </div>
                                             <!-- <div class="box2">
                                                 <div class="price">Ціна рекомендована</div>
                                                 <div class="box_price">125 грн.</div>
                                             </div> -->
-                                    <p class="coffee_about"><span class="bold">Профиль вкуса:</span>Насыщенный и утонченный</p>
+                                    <p class="coffee_about"><span class="bold">Профиль вкуса:</span> насыщенный и утонченный</p>
                                     <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="btn_order">Заказать</button></a>
                                 </div>
                     </div>
@@ -537,14 +587,14 @@
                             <h1 class="coffee_name">MODERN BLEND</h1>
                             <div class="box">
                                     <div class="box2">
-                                            <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                            <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                             <div class="box_price">95 грн.</div>
                                         </div>
                                         <!-- <div class="box2">
                                             <div class="price">Ціна рекомендована</div>
                                             <div class="box_price">125 грн.</div>
                                         </div> -->
-                                <p class="coffee_about"><span class="bold">Профиль вкуса:</span>Мягкий и cбалансированный</p>
+                                <p class="coffee_about"><span class="bold">Профиль вкуса:</span> мягкий и cбалансированный</p>
                                 <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="btn_order">Заказать</button></a>
                             </div>
                     </div>
@@ -556,14 +606,14 @@
                               
                                 <div class="box">
                                     <div class="box2">
-                                        <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                        <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                         <div class="box_price">95 грн.</div>
                                     </div>
                                     <!-- <div class="box2">
                                         <div class="price">Цена рекомендуемая</div>
                                         <div class="box_price">135 грн.</div>
                                     </div> -->
-                                    <p class="coffee_about"><span class="bold">Профиль вкуса:</span> Цитрусовый микс, нежные специи и молочный шоколад</p>
+                                    <p class="coffee_about"><span class="bold">Профиль вкуса:</span> цитрусовый микс, нежные специи и молочный шоколад</p>
                                     <a href="https://twogen.bitrix24.ua/pub/form/10/a2pr0k/"><button class="btn_order">Заказать</button></a>
                                 </div>
                     </div>
@@ -575,7 +625,7 @@
                        
                         <div class="box">
                                 <div class="box2">
-                                    <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                    <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                     <div class="box_price">105 грн.</div>
                                 </div>
                                 <!-- <div class="box2">
@@ -594,14 +644,14 @@
                        
                         <div class="box">
                                 <div class="box2">
-                                        <div class="price">Цена партнерская, от 5 кг до 29 кг</div>
+                                        <div class="price">Цена партнерская от 5 кг до 29 кг</div>
                                         <div class="box_price">120 грн.</div>
                                     </div>
                                     <!-- <div class="box2">
                                         <div class="price">Цена рекомендуемая</div>
                                         <div class="box_price">170 грн.</div>
                                     </div> -->
-                            <p class="coffee_about"><span class="bold">Профиль вкуса:</span> Зеленый виноград, созревающая вишня и лимон</p>
+                            <p class="coffee_about"><span class="bold">Профиль вкуса:</span> зеленый виноград, созревающая вишня и лимон</p>
                             <a href="https://twogen.bitrix24.ua/pub/form/10/a2pr0k/"><button class="btn_order">Заказать</button></a>
                         </div>
                     </div>
@@ -612,14 +662,14 @@
                         <h1 class="coffee_name">ETHIOPIA KERCHANSHE GR2</h1>
                         <div class="box">
                                 <div class="box2">
-                                        <div class="price">Цена партнерская, від 5 кг до 29 кг</div>
+                                        <div class="price">Цена партнерская від 5 кг до 29 кг</div>
                                         <div class="box_price">130 грн.</div>
                                     </div>
                                     <!-- <div class="box2">
                                         <div class="price">Цена рекомендуемая</div>
                                         <div class="box_price">185 грн.</div>
                                     </div> -->
-                            <p class="coffee_about"><span class="bold">Профиль вкуса:</span>Персик, цитрусы, черный чай</p>
+                            <p class="coffee_about"><span class="bold">Профиль вкуса:</span> персик, цитрусы, черный чай</p>
                             <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="btn_order">Заказать</button></a>
                         </div>
                     </div>
@@ -631,14 +681,14 @@
                         
                             <div class="box">
                                 <div class="box2">
-                                    <div class="price">Цена партнерская, від 5 кг до 29 кг</div>
+                                    <div class="price">Цена партнерская від 5 кг до 29 кг</div>
                                     <div class="box_price">165 грн.</div>
                                 </div>
                                 <!-- <div class="box2">
                                     <div class="price">Цена рекомендуемая</div>
                                     <div class="box_price">236 грн.</div>
                                 </div> -->
-                                <p class="coffee_about"><span class="bold">Профиль вкуса:</span>Тропические фрукты, инжир, ликёр</p>
+                                <p class="coffee_about"><span class="bold">Профиль вкуса:</span> тропические фрукты, инжир, ликёр</p>
                                 <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="btn_order">Заказать</button></a>
                             </div>
                     </div>
@@ -657,7 +707,7 @@
                                     <div class="price">Ціна рекомендована</div>
                                     <div class="box_price">236 грн.</div>
                                 </div> -->
-                                <p class="coffee_about"><span class="bold">Профиль вкуса:</span>Абрикосовый джем, смородина, карамель</p>
+                                <p class="coffee_about"><span class="bold">Профиль вкуса:</span> абрикосовый джем, смородина, карамель</p>
                                 <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="btn_order">Заказать</button></a>
                             </div>
                     </div>
@@ -669,14 +719,14 @@
                 
                     <div class="box">
                             <div class="box2">
-                                <div class="price">Цена партнерская, від 5 кг до 29 кг</div>
+                                <div class="price">Цена партнерская від 5 кг до 29 кг</div>
                                 <div class="box_price">180 грн.</div>
                             </div>
                             <!-- <div class="box2">
                                 <div class="price">Цена рекомендуемая</div>
                                 <div class="box_price">245 грн.</div>
                             </div> -->
-                        <p class="coffee_about"><span class="bold">Профиль вкуса:</span>Манго, маракуйя, персик, легкие ромовые ноты</p>
+                        <p class="coffee_about"><span class="bold">Профиль вкуса:</span> манго, маракуйя, персик, легкие ромовые ноты</p>
                         <a href="https://twogen.bitrix24.ua/pub/form/6/ldwj6g/"><button class="btn_order">Заказать</button></a>
                     </div>
                     </div>
@@ -706,10 +756,10 @@
                         <table class="opt_table">
                                     <tr class="underline">
                                         <th class="table_bold">Страна</th>
-                                        <th class="table_bold">Происхождения</th>
+                                        <th class="table_bold">Происхождение</th>
                                         <th class="table_bold">Регион/Ферма</th>
-                                        <th class="table_bold">Вид арабики</th>
-                                        <th class="table_bold">Метод оброботки</th>
+                                        <th class="table_bold">Разновидность</th>
+                                        <th class="table_bold">Метод обрaботки</th>
                                         <th class="table_bold">Год урожая</th>
                                         <th class="table_bold">Обжарка</th>
                                         <th class="table_bold">Цена партнерская, (грн.)<br>
@@ -830,9 +880,9 @@
                                     </tr>  
                         </table>
                     </div>
-                    <p class="price_date">*цены действительны до 31.09.19</p>
+                    <p class="price_date">*цены действительны до 30.09.19</p>
                     <a href="https://twogen.bitrix24.ua/pub/form/10/a2pr0k/"><button class="opt_order">Заказать</button></a>
-                    <a href="prices/Price RU.jpg"><button class="opt_order">Загрузить</button></a>
+                    <a href="prices/Price RU.jpg"><button class="opt_order" disabled>Загрузить</button></a>
                     <img class="coffee_beans_opt" src="img/Coffee-Beans-section4.png">
                 </div>  
     </section>
@@ -842,7 +892,7 @@
                         <h1 class="contacts_head">Контакты</h1>
                         <div class="email">
                             <p class="email_p">E-mail:</p>
-                            <p class="email_mail">sales@2gen.com.ua</p>
+                            <p class="email_mail"><a href="mailto:sales@2gen.com.ua">sales@2gen.com.ua</a></p>
                         </div>
                         <div class="email">
                             <p class="email_p">Телефон:</p>
