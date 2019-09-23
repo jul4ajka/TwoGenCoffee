@@ -1072,7 +1072,7 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        top: -5vw;
+        top: -1vw;
     }
 
     /* Table */
@@ -1130,6 +1130,22 @@
     /* Overflow */
     header, .menu_mobile, #main_mobile, #about_mobile, #coffee_mobile, #opt_mobile, #contacts_mobile {
         overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lang {
+        color: black;
+        text-decoration: none;
+        font-family: "Courier prime";
+        font-size: 2.5vw;
+        font-weight: 800;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -5vw;
     }
 }
 
