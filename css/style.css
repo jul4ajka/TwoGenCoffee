@@ -13,6 +13,13 @@
         flex-direction: row;
     }
 
+    .not_available {
+        color: red;
+        font-family: "Courier prime";
+        font-size: 1.4vw; 
+        text-align: center;
+    }
+
     aside {
         width: 13vw;
         height: 100vh;
@@ -241,12 +248,13 @@
     .coffee_container {
         display: flex;
         flex-direction: row;
-        width: 60vw;
-        margin-left: 10vw;
+        justify-content: center;
+        width: 87vw
+        /* margin-left: 10vw; */
     }
 
     .row2 {
-        margin-left: 27vw;
+        margin-left: 0vw;
     }
 
     .coffee_item {
@@ -655,6 +663,13 @@
 }
 
 @media screen and (max-width: 768px) {
+    .not_available {
+        color: red;
+        font-family: "Courier prime";
+        font-size: 5.4vw; 
+        text-align: center;
+    }
+
     .desktop {
         display: none;
     }
