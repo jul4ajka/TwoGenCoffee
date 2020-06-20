@@ -310,7 +310,8 @@
         text-align: right;
         width: 14vw;
         position: relative;
-        top: 2vw;
+        /* top: 2vw; */
+        top: 0vw;
     }
     
     .box {
