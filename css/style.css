@@ -266,6 +266,8 @@
         width: 12vw;
         height: auto;
         margin-left: 1vw;
+        position: relative;
+        z-index: 2;
     }
 
     .pack_container {
